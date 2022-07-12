@@ -1,0 +1,10 @@
+{
+    "name": "study_center",
+    "version": "1.1.0",
+    "description": "",
+    "author": "Ritik Sharma",
+    "license": "MIT",
+    "dependencies": {
+        "sass": "^1.52.3"
+    }
+}
