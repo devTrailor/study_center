@@ -526,6 +526,12 @@ textarea.form-control {
     height: 500px;
 }
 
+.contact-map {
+    background-color: #d02526;
+    height: 700px;
+    width: 100%;
+}
+
 .top-header {
     font-size: 12px;
     transition: transform 0.2s ease;
@@ -543,6 +549,10 @@ textarea.form-control {
     transition: 0.2s ease;
 }
 
+.navbar-toggler {
+    margin: 10px 0;
+}
+
 @media (max-width: 991px) {
     .navigation {
         background: #1a1a37;
@@ -551,6 +561,15 @@ textarea.form-control {
 
 .navbar .navbar-brand {
     font-size: 28px;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar-brand {
+        font-size: 20px !important;
+    }
+    img {
+        width: 20%;
+    }
 }
 
 .navbar .center {
